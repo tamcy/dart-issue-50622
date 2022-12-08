@@ -2,7 +2,7 @@ import 'package:server/assets.dart';
 
 void main(List<String> args) {
   print('program started');
-  for (var i = 0; i < 500; i++) {
+  for (var i = 0; i < 100; i++) {
     print('===== LOOP ${i + 1} =====');
 
     for (int i = 0; i < beziers.length - 1; i++) {
